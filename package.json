@@ -1,0 +1,31 @@
+{
+  "name": "GJ-cli",
+  "version": "1.0.1",
+  "author": "段雄飞",
+  "description": "vue3自定义cli",
+  "main": "src/main.js",
+  "bin": {
+    "G-cli": "./bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/duanxiongfei-2016/GJ-cli",
+  "keywords": [
+    "GJ-cli",
+    "cli"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.0"
+  }
+}
