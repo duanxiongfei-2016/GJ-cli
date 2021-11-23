@@ -1,18 +1,18 @@
 {
-  "name": "GJ-cli",
+  "name": "gj-cli",
   "version": "1.0.1",
   "author": "段雄飞",
-  "description": "vue3自定义cli",
+  "description": "vite自定义cli",
   "main": "src/main.js",
   "bin": {
-    "G-cli": "./bin/www"
+    "gj-cli": "./bin/www"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/duanxiongfei-2016/GJ-cli",
   "keywords": [
-    "GJ-cli",
+    "gj-cli",
     "cli"
   ],
   "license": "ISC",
@@ -25,7 +25,9 @@
     "axios": "^0.24.0",
     "colors": "^1.4.0",
     "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.0",
+    "ncp": "^2.0.0",
     "ora": "^5.4.0"
   }
 }

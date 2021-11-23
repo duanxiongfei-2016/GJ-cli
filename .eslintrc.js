@@ -4,7 +4,7 @@
  * @Author       : 段雄飞
  * @Date         : 2021-11-22 15:06:29
  * @LastEditors  : 段雄飞
- * @LastEditTime : 2021-11-22 18:29:05
+ * @LastEditTime : 2021-11-22 22:04:29
  */
 module.exports = {
     env: {
@@ -37,6 +37,7 @@ module.exports = {
         'new-cap': 2, // 要求构造函数首字母大写
         'space-infix-ops': 2, // 字符串加号前后要空格
         'block-spacing': 2, // 单行代码块两边加空格
+        'class-methods-use-this': 'off',
         // 注释风格要不要有空格什么的
         'spaced-comment': [
             'error',
